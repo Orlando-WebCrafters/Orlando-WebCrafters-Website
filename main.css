@@ -1,0 +1,383 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    transform: translate(0, 0%);
+}
+
+.overlay-2 {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #48A9A6;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('Graphics-Pictures/WebBackground.jpg');
+    background-size: cover;
+}
+
+.overlay p {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.screen {
+    color: #323232;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myBtn {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1vmax;
+    font-weight: 700;
+}
+
+button {
+    display: block;
+    padding: 24px 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: #fff;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    background: none;
+    z-index: 1;
+    cursor: default;
+    transition: 0.8s ease-out;
+}
+
+.myBtn:hover {
+    color: #101010;
+    cursor: pointer;
+}
+
+.myBtn:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    transition: top 0.8s ease-out;
+}
+
+.myBtn:hover:before {
+    top: 0;
+}
+
+
+
+
+
+
+
+header {
+    margin-top: 0px;
+    border: 0px solid white;
+    z-index: 10;
+    background-color: #e3e3e3;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+}
+
+header .WebVineLogo img{
+    display: flex;
+    justify-content: flex-start;
+    width: 16vw;
+    height: 4vw;
+    margin-top: 0px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #e3e3e3;
+    position: relative;
+}
+
+header li{
+    display: inline-block;
+}
+
+header li a{
+    color: #292929;
+    text-decoration: none;
+    padding: 1vw;
+    display: block;
+}
+
+header li:hover{
+    background: lightgray;
+}
+
+header ul ul {
+    position: absolute;
+    min-width: 12vw;
+    background: lightgray;
+    display: none;
+}
+
+header ul ul li {
+    display: block;
+    background: #e3e3e3;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li i {
+    color: #292929;
+    float: right;
+    padding-left: 0px;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.jumbotron1 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('Graphics-Pictures/WebVineMainBackground.jpg');
+    background-size: cover;
+    color: black;
+    height: 100vh;
+}
+
+.jumbotron1 h1 {
+    font-size: 4.5vmax;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+.divider{
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+}
+
+.divider .container{
+    font-size: 2vw;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.jumbotron2 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    background-image: url('Graphics-Pictures/WebDesignBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.jumbotron2 h1 {
+    font-size: 4.5vmax;
+    color: black;
+    margin-left: 56%;
+    margin-right: 7em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron2 p {
+    text-align: left;
+    margin-left: 55%;
+    margin-right: 5em;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+.jumbotron3 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    background-color: #EAEDEF;
+    background-image: url('Graphics-Pictures/WebBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+}
+
+.jumbotron3 h1 {
+    font-size: 4.5vmax;
+    margin-left: 8.5vw;
+    margin-right: 17em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.jumbotron3 p {
+    text-align: left;
+    margin-left: 7.5vw;
+    margin-right: 55vw;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+.jumbotron4 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    background-image: url('Graphics-Pictures/WebDesignBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.jumbotron4 h1 {
+    font-size: 4.5vmax;
+    color: black;
+    margin-left: 56%;
+    margin-right: 2em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron4 p {
+    text-align: left;
+    margin-left: 55%;
+    margin-right: 5em;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+.jumbotron5 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    background-image: url('Graphics-Pictures/WebBackground.jpg');
+}
+
+.jumbotron5 h1 {
+    font-size: 4.5vmax;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    text-shadow: none;
+    background: none;
+    margin: 5px;
+    border: 2px solid white;
+    transition: 0.8s ease-out;
+}
+
+.btn:hover {
+    color: #101010;
+    background-color: white;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    background: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    transition: top 0.8s ease-out;
+}
+
+.btn:hover:before {
+    top: 0;
+}
+
+footer {
+    background-color: white;
+    font-size: 0.9vw;
+    padding: 1.6vw 0;
+}
+
+footer .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
