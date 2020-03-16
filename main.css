@@ -238,7 +238,7 @@ header .nav-bar {
     font-size: 4.5vmax;
     color: black;
     margin-left: 56%;
-    margin-right: 7em;
+    margin-right: 3em;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
@@ -270,8 +270,8 @@ header .nav-bar {
 
 .jumbotron3 h1 {
     font-size: 4.5vmax;
-    margin-left: 8.5vw;
-    margin-right: 17em;
+    margin-left: 7vw;
+    margin-right: 11em;
     color: black;
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -279,7 +279,7 @@ header .nav-bar {
 
 .jumbotron3 p {
     text-align: left;
-    margin-left: 7.5vw;
+    margin-left: 6vw;
     margin-right: 55vw;
     color: black;
     font-weight: 500;
@@ -305,7 +305,7 @@ header .nav-bar {
     font-size: 4.5vmax;
     color: black;
     margin-left: 56%;
-    margin-right: 2em;
+    margin-right: 1em;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
