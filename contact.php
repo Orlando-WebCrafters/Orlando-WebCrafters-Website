@@ -8,7 +8,7 @@
     if(isset($_POST['submit'])){
         $name=$_POST['name'];
         $email=$_POST['email'];
-        $msg=$_POST['msg'];
+        $msg=$_POST['message'];
 
         $to='webvineorganization@gmail.com'; // Receiver Email ID, Replace with your email ID
         $subject='WebVine Form Submission';
