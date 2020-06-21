@@ -18,7 +18,7 @@ header {
     -o-backface-visibility: hidden;
 }
 
-header .WebVineLogo img{
+header .WebCraftersLogo img{
     display: flex;
     justify-content: flex-start;
     width: 16vw;

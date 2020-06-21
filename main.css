@@ -5,7 +5,6 @@ body {
 
 
 
-
 .content {
     width: 100%;
     margin: 0 auto;
@@ -94,10 +93,6 @@ button {
 
 
 
-
-
-
-
 header {
     margin-top: 0px;
     border: 0px solid white;
@@ -113,7 +108,7 @@ header {
     -o-backface-visibility: hidden;
 }
 
-header .WebVineLogo img{
+header .WebCraftersLogo img{
     display: flex;
     justify-content: flex-start;
     width: 16vw;
@@ -186,7 +181,7 @@ header .nav-bar {
     display: flex;
     align-items: center;
     background-attachment: fixed;
-    background-image: url('Graphics-Pictures/WebVineMainBackground.jpg');
+    background-image: url('Graphics-Pictures/WebCraftersMainBackground.jpg');
     background-size: cover;
     color: black;
     height: 100vh;
