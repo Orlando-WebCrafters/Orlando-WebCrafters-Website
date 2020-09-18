@@ -94,7 +94,7 @@ header .nav-bar {
     width: 100%;
 }
 
-.jumbotron1 {
+.jumbotronContact {
     display: flex;
     align-items: center;
     background-attachment: fixed;
@@ -103,7 +103,7 @@ header .nav-bar {
     color: black;
 }
 
-.jumbotron1 p {
+.jumbotronContact p {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -114,7 +114,7 @@ header .nav-bar {
     font-family: 'Roboto', sans-serif;
 }
 
-.jumbotron1 form {
+.jumbotronContact form {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
